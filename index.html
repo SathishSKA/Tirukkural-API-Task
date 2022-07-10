@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirukkural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <h1 class="navbar-brand title"><b>Tirukkural</b></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu1" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+        <div class="collapse navbar-collapse book" >
+            <ul class="navbar-nav ms-auto mb-sm-0">
+                <h2><b>The Divine Book</b></h2>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="container-sm">
+     <div id="home">
+         <div class="row">
+            <div class="col-md-9">
+               <p>The Tirukkuṟaḷ (Tamil: திருக்குறள் ) or shortly the Kural, is a classic Tamil language text consisting of 1,330 short couplets, or kurals, of seven words each. The text is divided into three books with aphoristic teachings on virtue (aram), wealth (porul) and love (inbam), respectively. Considered one of the greatest works ever written on ethics and morality, it is known for its universality and secular nature. Its authorship is traditionally attributed to Valluvar, also known in full as Thiruvalluvar. The text has been dated variously from 300 BCE to 5th century CE. The traditional accounts describe it as the last work of the third Sangam, but linguistic analysis suggests a later date of 450 to 500 CE and that it was composed after the Sangam period.</p>
+               <p>The Kural text is among the earliest systems of Indian epistemology and metaphysics. The Kural is traditionally praised with epithets and alternative titles, including "The Tamil Veda" and "The Divine Book. It highlights truthfulness, self-restraint, gratitude, hospitality, kindness, goodness of wife, duty, giving, and so forth, besides covering a wide range of social and political topics such as king, ministers, taxes, justice, forts, war, greatness of army and soldier's honor, death sentence for the wicked, agriculture, education, abstinence from alcohol and intoxicants. It also includes chapters on friendship, love, sexual unions, and domestic life. The text effectively denounced previously held misbeliefs that were common during the Sangam era and permanently redefined the cultural values of the Tamil land.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="tiruvalluvar.jpeg" >
+            </div>
+        </div>
+     </div>
+     <!-- Search -->
+        <section id="search">
+             <h1 class="text-center">Search</h1>
+            <input type="search" name="input" id="input" placeholder="Enter Kural Number">
+            <button  type="button" id="button" onclick="num()" name="input">Search</button>
+            <div class="container">
+                <!-- Tamil section -->
+                <section class="tamilsec">
+                <h1 class="text-center" id="tamil"></h1>
+                <h3 id="kural" class="text-center"></h3>
+                <div class="row">
+                    <div class="col-md-4" id="pal"></div>
+                    <div class="col-md-4" id="iyeal"></div>
+                    <div class="col-md-4" id="adhikaram"></div>
+                </div>
+                <h1 class="text-center" id="tamile1"></h1>
+                <p id="porul"></p>
+            </section>
+            <!-- English Section -->
+             <section class="englishsec">
+                <h1 class="text-center" id="englisht"></h1>
+                <h3 id="english" class="text-center"></h3>
+                <div class="row">
+                    <div class="col-md-4" id="section"></div>
+                    <div class="col-md-4" id="chapter-gro"></div>
+                    <div class="col-md-4" id="chapter"></div>
+                </div>
+                <h1 class="text-center" id="eng"></h1>
+                <p id="explain"></p>
+            </section>
+            </div>
+          </section>
+     </div>      
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #918bdb;
+
+}
+
+nav{
+
+    top:0px;
+    left: 0px;
+    right: 0px !important;
+    z-index: 100;
+    padding: .5rem 2rem;
+    background-color: blue;
+}
+
+.title{
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+}
+
+.book{
+    color: white;
+}
+
+ img{
+     size: cover;
+     position: center;
+     width: 140%;
+    
+ }
+
+ #input{
+     font-size: 25px;
+     margin-left: 20%;
+     height: 48px;
+     border-radius: 4px;
+     width: calc(18rem);
+     text-align: center;
+
+ }
+
+ #button{
+     height: 45px;
+     background-color: rgb(241, 34, 224);
+     margin-top: 0px !important;
+     border-radius: 4px;
+     width: 17%;
+ }
+
+ #button:active{
+     background-color: rgb(24, 66, 24);
+ }
+
+ @media (min-width:992px) {
+     #input{
+         margin-left: 30%;
+        
+     }
+ }
+
+ @media (max-width:575px) {
+     #input{
+         height: 30px;
+         margin-left: 35%;
+         width: calc(10rem) !important;
+     }
+     #button{
+         height: 30px;
+         size: 20px;
+     }
+     
+ }
+
+ .btn1{
+     margin-left: 0px !important;
+ }
+
+#search{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5%;
+}
+
+section .tamilsec h1,section .englishsec h1{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5%;
+        
+    
+}
+
+#kural,#english{
+    margin:2% 0% 3% 0%;
+}
+
+#tamil,#englisht{
+    font-weight: bold;
+    color: rgb(18, 76, 250);
+    
+}
+
+#tamile1,#eng{
+    size:calc(1rem +1rem);
+    color:rgb(0, 0, 0);
+    font-weight: 5%;
+   
+    border-radius: 2rem;
+}
+
+@media (max-width:767) {
+    #tamile1,#eng{
+        size:calc(.5rem +.3rem) !important;
+    }
+}
+
+#pal,#section{
+    background-color: rgb(41, 72, 129);
+    border-radius: 2rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#iyeal,#chapter-gro{
+    background-color: rgb(100, 73, 5);
+    border-radius: 2rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#adhikaram,#chapter{
+    background-color: rgb(82, 15, 98);
+    border-radius: 2rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#porul,#explain{
+    background-color: #041f21;
+    border-radius: 2rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10%;
+}
